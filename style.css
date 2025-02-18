@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+#booking {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center; // เพิ่มเพื่อจัดวางปุ่มตรงกลาง
+}
+
+#booking-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#booking-form input, #booking-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#booking-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#time-options button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #eee;
+}
+
+#time-options button.selected {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button-container {
+    display: flex; /* จัดวางปุ่มแบบ inline-flex */
+    justify-content: center; /* จัดวางปุ่มให้ตรงกลาง */
+    margin-top: 20px; /* เพิ่มระยะห่างด้านบนเล็กน้อย */
+}
+
+.button-container button {
+    margin: 0 10px; 
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>จองร้านหมูกระทะออนไลน์</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ร้านหมูกระทะอร่อยๆ</h1>
+        <nav>
+            <ul>
+                <li><a href="#">หน้าแรก</a></li>
+                <li><a href="#">เมนู</a></li>
+                <li><a href="#">โปรโมชั่น</a></li>
+                <li><a href="#">ติดต่อ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="booking">
+            <h2>จองโต๊ะ</h2>
+            <form id="booking-form">
+                <label for="time">เลือกรอบเวลา:</label>
+                <div id="time-options">
+                    <button data-time="1730">17:30</button>
+                    <button data-time="1830">18:30</button>
+                    <button data-time="1930">19:30</button>
+                    <button data-time="2030">20:30</button>
+                    <button data-time="2130">21:30</button>
+                </div>
+                <br><br>
+
+                <label for="people">จำนวนคน:</label>
+                <input type="number" id="people" name="people" min="1" required><br><br>
+
+                <p>ราคาเริ่มต้น: 249 บาท/คน</p>
+
+                <button type="button" id="confirmBooking">ยืนยันการจอง</button>
+            </form>
+            <div id="booking-result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 ร้านหมูกระทะอร่อยๆ</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
